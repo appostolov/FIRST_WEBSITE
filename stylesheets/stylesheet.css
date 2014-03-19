@@ -53,7 +53,7 @@ color:rgb(255,255,0);
 }
 
 #button_money{
-position:fixed;top:20%;left:0px;width:10%;height:5%;background-color:rgb(0,0,200);cursor:pointer;
+position:fixed;top:154px;left:0px;width:160px;height:39px;background-color:rgb(0,0,200);cursor:pointer;
 }
 
 #button_money p{
@@ -68,7 +68,7 @@ color:rgb(255,255,0);
 }
 
 #button_properties{
-position:fixed;top:26%;left:0px;width:10%;height:5%;background-color:rgb(0,0,200);cursor:pointer;
+position:fixed;top:201px;left:0px;width:160px;height:39px;background-color:rgb(0,0,200);cursor:pointer;
 }
 
 #button_properties p{
