@@ -157,7 +157,7 @@ color:rgb(255,255,0);
 }
 
 #offer_select_info{
-position:fixed;left:15%;top:5%;width:80%;height:90%;background-color:rgb(255,255,255);overflow:auto;
+position:fixed;left:15%;top:5%;width:80%;height:90%;background-color:rgb(255,255,255);overflow:auto;box-shadow: 10px 10px 5px #888888;
 }
 
 #panel
