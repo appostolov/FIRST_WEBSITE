@@ -166,6 +166,11 @@ overflow:auto;box-shadow: 10px 10px 5px #888888;
 opacity:0.5;
 }
 
+#offer_select_info p{
+color:rgb(50,0,50);
+opacity:1;
+}
+
 #panel
 {
 background-color:rgb(200,255,255);
