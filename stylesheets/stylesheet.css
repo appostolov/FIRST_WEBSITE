@@ -39,7 +39,13 @@ color:rgb(255,255,0);
 }
 
 #button_where{
-position:fixed;top:107px;left:0px;width:160px;height:39px;background-color:rgb(0,0,200);cursor:pointer;
+position:absolute;
+top:107px;
+left:0px;
+width:160px;
+height:39px;
+background-color:rgb(0,0,200);
+cursor:pointer;
 }
 
 #button_where p{
@@ -54,7 +60,13 @@ color:rgb(255,255,0);
 }
 
 #button_money{
-position:fixed;top:154px;left:0px;width:160px;height:39px;background-color:rgb(0,0,200);cursor:pointer;
+position:absolute;
+top:154px;
+left:0px;
+width:160px;
+height:39px;
+background-color:rgb(0,0,200);
+cursor:pointer;
 }
 
 #button_money p{
@@ -69,7 +81,13 @@ color:rgb(255,255,0);
 }
 
 #button_properties{
-position:fixed;top:201px;left:0px;width:160px;height:39px;background-color:rgb(0,0,200);cursor:pointer;
+position:absolute;
+top:201px;
+left:0px;
+width:160px;
+height:39px;
+background-color:rgb(0,0,200);
+cursor:pointer;
 }
 
 #button_properties p{
@@ -84,19 +102,36 @@ color:rgb(255,255,0);
 }
 
 #info_screen{
-position:fixed;top:285px;left:10px;width:140px;height:330px;background-color:rgb(200,240,255);border-style:solid;border-width:1px;border-color:rgb(50,0,50);overflow:auto;
+position:absolute;
+top:285px;
+left:10px;
+width:140px;
+height:330px;
+background-color:rgb(200,240,255);
+border-style:solid;
+border-width:1px;
+border-color:rgb(50,0,50);
+overflow:auto;
 }
 
 #screen_title{
-position:fixed;
-top:261px;left:10px;width:140px;height:24px;
-background-color:rgb(0,0,100);margin:0px;
+position:absolute;
+top:261px;
+left:10px
+;width:140px;
+height:24px;
+background-color:rgb(0,0,100);
+margin:0px;
 }
 
 #search_button{
-position:fixed;
-top:625px;left:20px;width:120px;height:24px;
-background-color:rgb(0,0,150);margin:0px;
+position:absolute;
+top:625px;
+left:20px;
+width:120px;
+height:24px;
+background-color:rgb(0,0,150);
+margin:0px;
 border-width:1px;
 border-style:solid;
 border-color:yellow;
@@ -126,24 +161,48 @@ color:rgb(255,255,0);
 }
 
 #info_text{
-position:relative;margin-left:1%;
+position:relative;
+margin-left:1%;
 }
 
 #bg_flag{
-position:fixed;left:10px;top:670px;width:32px;height:24px;
-background-color:rgb(255,0,0);cursor:pointer;
+position:absolute;
+left:10px;
+top:670px;
+width:32px;
+height:24px;
+background-color:rgb(255,0,0);
+cursor:pointer;
 }
 
 #en_flag{
-position:fixed;left:56px;top:667px;width:48px;height:27px;background-color:rgb(255,0,0);cursor:pointer;
+position:absolute;
+left:56px;
+top:667px;
+width:48px;
+height:27px;
+background-color:rgb(255,0,0);
+cursor:pointer;
 }
 
 #ru_flag{
-position:fixed;left:120px;top:670px;width:32px;height:24px;background-color:rgb(255,0,0);cursor:pointer;
+position:absolute;
+left:120px;
+top:670px;
+width:32px;
+height:24px;
+background-color:rgb(255,0,0);
+cursor:pointer;
 }
 
 #button_contacts{
-position:fixed;left:0px;top:720px;width:160px;height:39px;background-color:rgb(0,0,200);cursor:pointer;
+position:absolute;
+left:0px;
+top:720px;
+width:160px;
+height:39px;
+background-color:rgb(0,0,200);
+cursor:pointer;
 }
 
 #button_contacts p{
@@ -158,13 +217,14 @@ color:rgb(255,255,0);
 }
 
 #offer_select_info{
-position:fixed;
+position:absolute;
 left:240px;
 top:39px;
 width:1280px;
 height:700px;
 background-color:rgb(255,255,255);
-overflow:auto;box-shadow: 10px 10px 5px #888888;
+overflow:auto;
+box-shadow: 10px 10px 5px #888888;
 padding:0px;
 }
 
