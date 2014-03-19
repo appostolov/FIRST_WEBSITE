@@ -4,7 +4,11 @@ background-attachment:fixed;
 } 
 
 #manage_panel{
-position:absolute;top:0px;left:0px;width:160px;height:100%;
+position:fixed;
+top:0px;
+left:0px;
+width:160px;
+height:100%;
 background-color:rgba(0,0,255,255);
 }
 
