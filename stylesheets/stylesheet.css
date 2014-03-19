@@ -166,7 +166,8 @@ overflow:auto;box-shadow: 10px 10px 5px #888888;
 }
 
 #offer_select_info p{
-color:rgb(50,0,50);
+font-size:50px;
+color:rgb(255,0,50);
 opacity:1;
 }
 
