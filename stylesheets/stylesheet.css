@@ -1,7 +1,4 @@
-body{
-background-image:'image/en_flag.png';
-background-color:#cccccc;
-}
+body {background-image:url("images/sky_colors-wide.jpg");} 
 
 #manage_panel{
 position:fixed;top:0%;left:0%;width:10%;height:100%;
