@@ -3,7 +3,7 @@ background-color:rgb(200,255,240);
 } 
 
 #manage_panel{
-position:fixed;top:0px;left:0px;width:100px;height:100%;
+position:fixed;top:0px;left:0px;width:200px;height:100%;
 background-color:rgba(0,0,255,255);
 }
 
