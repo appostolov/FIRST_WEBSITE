@@ -1,5 +1,6 @@
 body{
-background-image:'images/sky_colors-wide.jpg';
+background-image:url('paper.gif');
+background-color:#cccccc;
 }
 
 #manage_panel{
