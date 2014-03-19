@@ -1,5 +1,5 @@
 body{
-background-color:rgb(0,0,0);
+background-color:rgb(0,240,255);
 }
 
 #manage_panel{
@@ -156,12 +156,8 @@ line-height:200%;
 color:rgb(255,255,0);
 }
 
-#offer_select{
-position:fixed;left:20%;top:2%;width:55%;height:75%;background-color:rgb(255,255,255);
-}
-
 #offer_select_info{
-position:fixed;left:75.5%;top:2%;width:15%;height:75%;background-color:rgb(255,255,255);overflow:auto;
+position:fixed;left:15%;top:5%;width:80%;height:90%;background-color:rgb(255,255,255);overflow:auto;
 }
 
 #panel
