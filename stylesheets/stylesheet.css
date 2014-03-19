@@ -1,4 +1,6 @@
-body {background-image:url("sky_colors-wide.jpg");} 
+body {
+background"sky_colors-wide.jpg";
+} 
 
 #manage_panel{
 position:fixed;top:0%;left:0%;width:10%;height:100%;
