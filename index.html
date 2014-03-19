@@ -7,73 +7,157 @@
     <meta name="description" content="First website : This is the field, where I have start to work with web technologies. The page is not something genius, but this is the beginning." />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
     <title>First website</title>
   </head>
 
   <body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/appostolov/FIRST_WEBSITE">View on GitHub</a>
+    <div id="manage_panel"></div>
 
-          <h1 id="project_title">First website</h1>
-          <h2 id="project_tagline">This is the field, where I have start to work with web technologies. The page is not something genius, but this is the beginning.</h2>
+<div id="logo" 
+onmouseover="style.backgroundColor='rgb(150,10,150)',style.width='11%'" 
+onmouseout="style.backgroundColor='rgb(0,0,255)',style.width='10%'">
+<p>Slaveya ltd.</p>
+</div>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/appostolov/FIRST_WEBSITE/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/appostolov/FIRST_WEBSITE/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<div id="button_what" onmouseover="style.backgroundColor='rgb(10,10,100)',style.width='11%',panel()" onmouseout="style.backgroundColor='rgb(0,0,200)',style.width='10%'" onclick="f_what()">
+<p>WHAT</p>
+</div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<div class="class" id="button_where" onmouseover="style.backgroundColor='rgb(10,10,100)',style.width='11%',panel1()" onmouseout="style.backgroundColor='rgb(0,0,200)',style.width='10%'" onclick="f_where()">
+<p>WHERE</p>
+</div>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<div id="button_money" onmouseover="style.backgroundColor='rgb(10,10,100)',style.width='11%',panel2()" onmouseout="style.backgroundColor='rgb(0,0,200)',style.width='10%'" onclick="f_money()">
+<p>MONEY</p>
+</div>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<div id="button_properties" onmouseover="style.backgroundColor='rgb(10,10,100)',style.width='11%',panel3()" onmouseout="style.backgroundColor='rgb(0,0,200)',style.width='10%'" onclick="f_properties()">
+<p>PROPERTIES</p>
+</div>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<div id="screen_title">
+<p>CURRENT</p>
+</div>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<div id="info_screen" onmouseover="style.border='1px solid rgb(0,240,255)'" onmouseout="style.border='1px solid rgb(50,0,50)'">
+<div id="info_text">
+<p id="i_what"><b>WHAT:</b></p>
+<p id="i_where"><b>WHERE:</b></p>
+<p id="i_money"><b>MONEY:</b></p>
+<p id="i_money_i"></p>
+<p id="i_properties"><b>PROPERTIES:</b></p>
+<p id="i_properties_i"></p>
+</div>
+</div>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<div id="search_button" onmouseover="style.backgroundColor='rgb(255,0,0)'" onmouseout="style.backgroundColor='rgb(0,0,150)'">
+<p>SEARCH</p>
+</div>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<img id="bg_flag" src="bg_flag.gif" onmouseover="style.border='1px solid yellow'" onmouseout="style.border='0px solid yellow'"></img>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<img id="ru_flag" src="ru_flag.jpg" src="bg_flag.gif" onmouseover="style.border='1px solid yellow'" onmouseout="style.border='0px solid yellow'"></img>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<img id="en_flag" src="en_flag.png" src="bg_flag.gif" onmouseover="style.border='1px solid yellow'" onmouseout="style.border='0px solid yellow'"></img>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<div id="button_contacts" onmouseover="style.backgroundColor='rgb(10,10,100)',style.width='11%'" onmouseout="style.backgroundColor='rgb(0,0,200)',style.width='10%'" onclick="f_contacts()">
+<p>contacts</p>
+</div>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
+<div id="offers"></div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">First website maintained by <a href="https://github.com/appostolov">appostolov</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+<div id="offer_select"></div>
 
-    
+<div id="offer_select_info">
+<p>Offer's information about what, where, money and properties!</p>
+</div>
+
+
+
+<div id="pic_button_left" onmouseover="style.border='2px solid yellow'" onmouseout="style.border='0px solid yellow'">
+<p><</p>
+</div>
+
+<div id="pic_button_right" onmouseover="style.border='2px solid yellow'" onmouseout="style.border='0px solid yellow'">
+<p>></p>
+</div>
+
+<div id="panel3">
+<form id="properties_form">
+<input type="checkbox" id="pro_any">Any<br /></input>
+<p id="from">From[m2]</p>
+<input type="text" name="fromm" width="10"><br>
+<p id="to">To[m2]</p>
+<input type="text" name="tom" width="10">
+<button type="button" onclick="validate_properties(fromm,tom)">Done</button><br />
+<input type="radio" name="pro_go" value="goUp">Go up<br />
+<input type="radio" name="pro_go" value="goDown">Go down
+</form>
+</div>
+
+<div id="panel2">
+<form id="money_form">
+<input type="checkbox" id="money_any">Any<br /></input>
+<p id="from">From[EUR]</p>
+<input type="text" name="from" width="10"><br />
+<p id="to">To[EUR]</p>
+<input type="text" name="to" width="10"><br />
+<button type="button" onclick="validate_money(from,to)">Done</button><br />
+<input type="radio" name="money_go" value="goUp">Go up<br />
+<input type="radio" name="money_go" value="goDown">Go down
+</form> 
+</div>
+
+<div id="panel1">
+<form id="where_choice">
+<input type="checkbox" id="where_all" value="All" onclick="info_where_all()">All<br /></input>
+<input type="checkbox" id="where_bs" value="Burgas" onclick="info_where_bs()">Burgas<br /></input>
+<input type="checkbox" id="where_pom" value="Pomorie" onclick="info_where_pom()">Pomorie<br /></input>
+<input type="checkbox" id="where_sb" value="Sunny Beach" onclick="info_where_sb()">Sunny Beach<br /></input>
+<input type="checkbox" id="where_sv" value="St. Vlas" onclick="info_where_sv()">St. Vlas<br /></input>
+<input type="checkbox" id="where_s" value="Sozopol" onclick="info_where_s()">Sozopol<br /></input>
+<input type="checkbox" id="where_ts" value="Tsarevo" onclick="info_where_ts()">Tsarevo<br /></input>
+<input type="checkbox" id="where_re" value="Rezovo" onclick="info_where_re()">Rezovo<br /></input>
+</form>
+</div>
+
+<div id="panel">
+<form id="buy_rent">
+<input type="checkbox" name="buy">Buy</input>
+<input type="checkbox" name="rent">Rent</input>
+<input type="checkbox" name="any">Any</input>
+</form>
+<form id="what_choice">
+<input type="checkbox" id="what_all" value="All" onclick="info_what_all()">All<br /></input>
+<input type="checkbox" id="what_app" value="Appartment" onclick="info_what_app()">Appartment<br /></input>
+<input type="checkbox" id="what_house" value="House" onclick="info_what_house()">House/Summerhouse<br /></input>
+<input type="checkbox" id="what_hotel" value="Hetel" onclick="info_what_hotel()">Hotels<br /></input>
+<input type="checkbox" id="what_land" value="Land" onclick="info_what_land()">Land<br /></input>
+<input type="checkbox" id="what_invest" value="Project" onclick="info_what_invest()">Investment projects<br /></input>
+<input type="checkbox" id="what_com" value="Commercial" onclick="info_what_commers()">Commercial/Industrial<br /></input>
+</form> 
+</div>
+
+<div id="panel4">
+<dl id="tel">
+<dt>Telephone:</dt>
+<li>+359(0)896 866 983</li>
+<li>+359(0)886 366 213</li>
+</dl>
+<dl id="mail">
+<dt>@-mail:</dt>
+<li>slaveya62@mail.bg</li>
+</dl>
+<dl id="skype">
+<dt>Skype:</dt>
+<li>slaveya.a</li>
+</dl>
+</div>
 
   </body>
 </html>
