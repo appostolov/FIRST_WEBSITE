@@ -1,6 +1,6 @@
 body {
 background-color:rgb(200,255,240);
-overflow:auto;
+background-attachment:fixed;
 } 
 
 #manage_panel{
