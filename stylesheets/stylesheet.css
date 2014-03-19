@@ -163,13 +163,14 @@ width:80%;
 height:90%;
 background-color:rgb(255,255,255);
 overflow:auto;box-shadow: 10px 10px 5px #888888;
-padding:0px;
+padding:50px;
 }
 
 #offer_select_info p{
 font-size:40px;
 color:rgb(200,0,200);
 opacity:1;
+word-break:keep-all;
 }
 
 #panel
