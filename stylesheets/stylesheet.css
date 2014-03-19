@@ -1,6 +1,6 @@
 body {
 background-color:rgb(200,255,240);
-overflow:scroll;
+scroll:auto;
 } 
 
 #manage_panel{
